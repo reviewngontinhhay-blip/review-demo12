@@ -63,7 +63,7 @@ td{padding:9px 12px;vertical-align:middle}
 .foot{color:var(--muted);font-size:12px;text-align:center;margin-top:28px}
 </style></head><body>
 <header><h1>Review demo12.phuongnamvina.net — trước khi launch</h1>
-<div class="sub">Site: <a href="http://demo12.phuongnamvina.net/" target="_blank">http://demo12.phuongnamvina.net/</a> · Cập nhật: 07/06/2026 10:49</div>
+<div class="sub">Site: <a href="http://demo12.phuongnamvina.net/" target="_blank">http://demo12.phuongnamvina.net/</a> · Cập nhật: 07/06/2026 10:52</div>
 <div><span class="cloudpill off" id="cloudpill">● Cloud: đang kiểm tra…</span></div></header>
 <div class="wrap">
   <div class="devhint"><b>Dành cho dev:</b> ở mỗi vấn đề, chọn <b>Tiến độ</b> + viết <b>Ghi chú của dev</b>, rồi bấm <b>💾 Lưu</b>. Thay đổi được lưu lên cloud và đồng bộ <b>real-time</b> cho mọi người mở link.</div>
@@ -121,7 +121,7 @@ td{padding:9px 12px;vertical-align:middle}
       <td class="c-id">#6</td><td>Độc giả</td><td>Trang chủ</td><td>Thiết kế footer bị sến</td>
       <td><span class="badge g-ui">UI</span></td><td><span class="badge prio-mid">Trung bình</span></td>
       <td><span class="badge st-todo" id="trbadge-6">Chờ xử lý</span></td></tr><tr class="trow" data-id="7" data-area="Độc giả" data-groups="UI,UX" data-prio="Trung bình" data-status="Chờ xử lý" onclick="openCard(7)">
-      <td class="c-id">#7</td><td>Độc giả</td><td>Trang chủ</td><td>Section &#x27;Chương mới&#x27; khó hiểu, cần làm gọn</td>
+      <td class="c-id">#7</td><td>Độc giả</td><td>Trang chủ</td><td>Đổi section &#x27;Chương mới&#x27; thành &#x27;Vừa cập nhật&#x27;, làm gọn</td>
       <td><span class="badge g-ui">UI</span><span class="badge g-ux">UX</span></td><td><span class="badge prio-mid">Trung bình</span></td>
       <td><span class="badge st-todo" id="trbadge-7">Chờ xử lý</span></td></tr><tr class="trow" data-id="8" data-area="Độc giả" data-groups="UI,Chức năng" data-prio="Trung bình" data-status="Chờ xử lý" onclick="openCard(8)">
       <td class="c-id">#8</td><td>Độc giả</td><td>Trang chủ</td><td>Truyện đã hoàn thành cần có tag “FULL” trên bìa</td>
@@ -328,13 +328,13 @@ td{padding:9px 12px;vertical-align:middle}
   </div></div>
 </div><div class="card open" id="card7" data-id="7" data-area="Độc giả" data-groups="UI,UX" data-prio="Trung bình" data-status="Chờ xử lý">
   <div class="chead" onclick="toggle(7)">
-    <span class="chev">▸</span><span class="idnum">#7</span><span class="ctitle">Section &#x27;Chương mới&#x27; khó hiểu, cần làm gọn</span>
+    <span class="chev">▸</span><span class="idnum">#7</span><span class="ctitle">Đổi section &#x27;Chương mới&#x27; thành &#x27;Vừa cập nhật&#x27;, làm gọn</span>
     <span class="spacer"></span><span class="badge g-ui">UI</span><span class="badge g-ux">UX</span><span class="badge prio-mid">Trung bình</span><span class="badge st-todo" id="cbadge-7">Chờ xử lý</span>
   </div>
   <div class="cbody"><div class="grid">
     <div class="textcol">
-      <div class="blk"><div class="lbl">Mô tả vấn đề</div><div>Phần &#x27;Chương mới&#x27; hiện khó hiểu; có thời gian cập nhật dư thừa.</div></div>
-      <div class="blk"><div class="lbl">Hướng giải quyết</div><div>Nếu để cập nhật chương: hiển thị tên truyện + số chương + 4 thể loại chính (ngôn tình, đam mỹ, bách hợp, no CP); bỏ thời gian (dư thừa); ưu tiên chỗ cho tên truyện.</div></div>
+      <div class="blk"><div class="lbl">Mô tả vấn đề</div><div>Phần &#x27;Chương mới&#x27; hiện khó hiểu. Muốn đổi tên thành &#x27;VỪA CẬP NHẬT&#x27; và làm gọn nội dung mỗi mục.</div></div>
+      <div class="blk"><div class="lbl">Hướng giải quyết</div><div>Đổi tên section &#x27;Chương mới&#x27; thành &#x27;VỪA CẬP NHẬT&#x27;. Mỗi mục hiển thị: Tên truyện · thể loại chính · thời gian (cập nhật).</div></div>
       <div class="devbox"><div class="devrow"><span class="lbl">Tiến độ (dev)</span><select class="devsel" onchange="setStatus(7,this.value)" onclick="event.stopPropagation()"><option value="Chờ xử lý" selected>Chờ xử lý</option><option value="Đang sửa">Đang sửa</option><option value="Đã sửa">Đã sửa</option><option value="Đã kiểm tra">Đã kiểm tra</option></select></div><textarea class="devnote" id="note-7" placeholder="Ghi chú của dev (tiến độ, vướng mắc, link commit...)" oninput="setNote(7,this.value)" onclick="event.stopPropagation()"></textarea><div class="devsave"><button class="savebtn" onclick="event.stopPropagation();saveCard(7)">💾 Lưu</button><span class="savedmsg" id="saved-7"></span></div></div>
     </div>
     <div class="imgwrap"><div class="imgcol"><div class="imglabel lb-bad">Hiện trạng</div><img data-imgkey="54_gopy_2.jpg" loading="lazy" onclick="event.stopPropagation();zoom(this.src)"></div></div>
